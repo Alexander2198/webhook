@@ -10,9 +10,7 @@ def webhook():
         data = request.json
         print("Datos recibidos:", data)
 
-        # Aquí podrías realizar el procesamiento de los datos
-        # Ejemplo: almacenar en una base de datos, enviar un correo, etc.
-        
+   
         # Responder con éxito (200 OK)
         return jsonify({"message": "Webhook recibido correctamente!"}), 200
 
